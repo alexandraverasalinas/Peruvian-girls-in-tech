@@ -1,29 +1,48 @@
+
+
 body {
-    background-color: #dbdacc;
+    background: rgb(227,103,188);
+    /* background: radial-gradient(circle, rgba(227,103,188,1) 0%, rgba(183,90,227,1) 17%, rgba(53,30,75,1) 100%); */
+    background: rgb(242,73,189);
+background: radial-gradient(circle, rgba(242,73,189,1) 0%, rgba(205,94,246,1) 17%, rgba(53,30,75,1) 100%);
   }
+
+
 
 h1 {
     color:#11009E;
     text-align: center;
+    position: relative;
     font-size: 58px;
     font-family: 'Kanit', sans-serif;
     font-weight:20px;
+    text-shadow: 5px 5px 10px rgba(134, 45, 193, 0.4);
+    color: #862dc1;
+
+    background: white;
+    max-width: 1000px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
 }
 
-
-
+.material-symbols-outlined {
+    font-size: 50px;
+}
 
 .intro {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     color: #27253c;
     font-weight: 50px;
+    font-family: 'Poppins', sans-serif;
     background: white;
     max-width: 600px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
-    padding: 30px;
+    padding: 8px;
 
      transition-property: transform;
     transition-duration: 0.3s;
@@ -38,12 +57,14 @@ h1 {
 
 .secondpart {
     background: white;
-    max-width: 600px;
+    max-width: 620px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
     padding: 30px;
     text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
 
     transition-property: transform;
     transition-duration: 0.3s;
@@ -55,12 +76,50 @@ h1 {
     transform: translateY(-10px);
     }
 
+    .secondpart-details strong {
+        color: #f65282;
+    }
 
 
-footer {
-    border-top: 1px solid #f9f7fe;
-    padding: 30px 0 0 0;
+   .stadistics {
+    font-family: 'Poppins', sans-serif;
+
+
+    background: white;
+    max-width: 620px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
     text-align: center;
-    font-size: 16px;
-    color: rgba(7, 2, 31, 0.6);
-  }
+    font-size: 17px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition: all 0.3s;   
+        }
+
+    .stadistics:hover {
+    transform: translateY(-10px);
+    }
+   
+
+        footer {
+            border-top: 1px solid #f9f7fe;
+            padding: 30px 0 0 0;
+            text-align: center;
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.986);
+
+            background: rgb(14, 7, 34);
+            
+            max-width: 2000px;
+            margin: 45px auto;
+            box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+             border-radius: 5px;
+            padding: 10px;
+          }
+
+          
+          
