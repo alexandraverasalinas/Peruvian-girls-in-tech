@@ -30,8 +30,9 @@ header {
 h2 {
     font-size:25px;
     margin-top: -70px;
-    text-shadow: 1px 2px 5px rgba(233, 113, 148, 0.5);
+    
     color: #e97194;
+    font-weight: -10px;
 
 }
 
@@ -85,6 +86,7 @@ h2 {
 
     .whatis strong {
         color: #f65282;
+        font-size: 18px;
     }
 
 
