@@ -9,22 +9,30 @@ background: radial-gradient(circle, rgba(242,73,189,1) 0%, rgba(205,94,246,1) 17
 
 
 
-h1 {
+header {
     color:#11009E;
     text-align: center;
     position: relative;
-    font-size: 58px;
+    font-size: 35px;
     font-family: 'Kanit', sans-serif;
     font-weight:20px;
     text-shadow: 5px 5px 10px rgba(134, 45, 193, 0.4);
     color: #862dc1;
 
-    background: white;
-    max-width: 1000px;
+    background: rgb(247, 239, 255);
+    max-width: 900px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
-    padding: 30px;
+    padding: 10px;
+}
+
+h2 {
+    font-size:25px;
+    margin-top: -70px;
+    text-shadow: 1px 2px 5px rgba(233, 113, 148, 0.5);
+    color: #e97194;
+
 }
 
 .material-symbols-outlined {
@@ -106,18 +114,35 @@ h1 {
     }
 
 
+    h4 {
+        font-size: 32px;
+        color:#681ca7;
+        font-weight: 50px;
+    }
+
+    h5 {
+        font-size: 25px;
+        color:#7e22b3;
+        margin-top: 70px;
+        margin-bottom: -5px;
+    }
+
+
    .stadistics {
     font-family: 'Poppins', sans-serif;
 
 
     background: white;
+    
     max-width: 620px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
     padding: 30px;
+    
     text-align: center;
     font-size: 17px;
+
 
     transition-property: transform;
     transition-duration: 0.3s;
@@ -128,7 +153,15 @@ h1 {
     .stadistics:hover {
     transform: translateY(-10px);
     }
-   
+
+    .stadistics strong {
+        color: #f65282;
+    }
+
+   .europe {
+    margin-top: -30px;
+    margin-bottom: -30px;
+   }
 
         footer {
             border-top: 1px solid #f9f7fe;
