@@ -34,13 +34,13 @@ h1 {
 .intro {
     text-align: center;
     font-size: 17px;
-    color: #27253c;
+    color: #000000;
     font-weight: 50px;
     font-family: 'Poppins', sans-serif;
     background: white;
     max-width: 600px;
     margin: 45px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
     padding: 8px;
 
@@ -52,6 +52,31 @@ h1 {
 
     .intro:hover {
     transform: translateY(-10px);
+    }
+
+
+    .whatis {
+    background: white;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition: all 0.3s;   
+        }
+
+    .whatis:hover {
+    transform: translateY(-10px);
+    }
+
+    .whatis strong {
+        color: #f65282;
     }
 
 
@@ -110,11 +135,12 @@ h1 {
             padding: 30px 0 0 0;
             text-align: center;
             font-size: 17px;
-            color: rgba(255, 255, 255, 0.986);
+            color: rgba(47, 18, 68, 0.986);
 
-            background: rgb(14, 7, 34);
+            background: rgb(195, 173, 221);
             
-            max-width: 2000px;
+            max-width: 900px;
+        
             margin: 45px auto;
             box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
              border-radius: 5px;
