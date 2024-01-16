@@ -179,6 +179,29 @@ h2 {
    }
 
 
+   .code-test {
+    text-align: center;
+    font-size: 25px;
+        color:#7e22b3;
+        margin-top: 70px;
+        margin-bottom: -5px;
+
+    background: white;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+   }
+
+
+   h8 {
+        font-size: 30px;
+        color:#7e22b3;
+        margin-top: 70px;
+        margin-bottom: 30px;
+   }
+
    .motives {
     text-align: left;
     font-size: 17px;
@@ -206,7 +229,7 @@ h2 {
    h7 {
     font-size: 30px;
         color:#681ca7;
-        font-weight: 50px;
+        font-weight: 1000px;
    }
 
    .motives strong {
